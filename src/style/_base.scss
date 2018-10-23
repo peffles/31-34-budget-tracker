@@ -1,0 +1,22 @@
+@import 'vars';
+
+body {
+  background: $background-color;
+  font-family: sans-serif;
+  color: $font-color;
+}
+h2 {
+  font-size: 1em;
+}
+
+a {
+  color: $font-color;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.error {
+  color: $error;
+}
