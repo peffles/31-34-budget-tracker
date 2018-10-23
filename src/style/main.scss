@@ -1,0 +1,42 @@
+@import 'normalize';
+@import 'base';
+body {
+  margin-left: 2%;
+  font-family: $font-family;
+}
+input {
+  margin-right: 15px;
+}
+.category {
+  text-align: center;
+}
+.formContainer {
+  text-align: center;
+}
+input:focus {
+  outline: none;
+}
+button {
+  background: #D8BFD8;
+  width: 145px;
+  height: 25px;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #695472;
+  font-size: 14px;
+  padding: 4px 20px 10px 20px;
+  text-decoration: none;
+  display: inline;
+}
+.deleteButton {
+  margin-top: .25%;
+  margin-left: 26.5%;
+  display: inline;
+}
+button:focus {
+  outline: none;
+}
+button:hover {
+  background: #d7a1f7;
+  text-decoration: none;
+}
